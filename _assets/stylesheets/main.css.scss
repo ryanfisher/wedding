@@ -1,1 +1,27 @@
 //= require normalize
+
+$warm_gray: #877F7A;
+$other_color: #B4CBC0;
+
+body {
+  color: $warm_gray;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: $warm_gray;
+}
+
+.save-date, .date {
+  color: $other_color;
+}
+
+.palm-tree {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90%;
+  width: 100%;
+}
