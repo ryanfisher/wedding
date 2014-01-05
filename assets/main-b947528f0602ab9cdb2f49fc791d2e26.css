@@ -1,8 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200|Poiret+One);
 body {
   color: #877f7a;
   text-align: center;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
   font-size: 16px; }
 
 .info {
@@ -14,15 +15,17 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #877f7a;
-  font-size: 2.2em;
+  font-size: 3em;
+  font-weight: 100;
   margin: 100px 0 0; }
 
 .date {
   color: #b4cbc0;
-  font-size: 4em; }
+  font-size: 4em;
+  font-family: 'Poiret One', cursive; }
 
 .venue, .location {
-  font-size: 1.5em;
+  font-size: 2.8em;
   text-transform: uppercase; }
 
 .palm-tree {
