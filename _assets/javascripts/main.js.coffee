@@ -2,12 +2,10 @@ $(document).on 'ready', ->
   $('nav a').click ->
     page = $(event.currentTarget).data('page')
     $('.info').addClass('up')
-    $('.page').slideUp    300
+    $('.page').slideUp 100
     callback = ->
-      $('.date, .location, .venue').addClass('small')
-      $('.details').slideDown(100)
-      $("##{page}").slideDown()
-    if $('.date').hasClass('small')
+      $("##{page}, .details").addClass('small').slideDown(100)
+    if $('.details').hasClass('small')
       callback()
     else
-      $('.details').slideUp 300, callback
+      $('.details').slideUp 200, callback
