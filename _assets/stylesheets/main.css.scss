@@ -111,10 +111,11 @@ nav {
     display: inline-block;
     text-decoration: none;
     padding-bottom: 5px;
+    margin: 0 3px;
     border-bottom: 1px solid $other_color;
   }
 }
 
-#places-to-stay {
+.page {
   display: none;
 }

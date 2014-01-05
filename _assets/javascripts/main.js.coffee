@@ -1,7 +1,13 @@
 $(document).on 'ready', ->
   $('nav a').click ->
+    page = $(event.currentTarget).data('page')
     $('.info').addClass('up')
-    $('.details').slideUp ->
+    $('.page').slideUp    300
+    callback = ->
       $('.date, .location, .venue').addClass('small')
       $('.details').slideDown(100)
-    $('#places-to-stay').slideDown()
+      $("##{page}").slideDown()
+    if $('.date').hasClass('small')
+      callback()
+    else
+      $('.details').slideUp 300, callback
