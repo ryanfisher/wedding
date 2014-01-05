@@ -2,9 +2,7 @@ name: Stacy and Ryan are getting married.
 author: Ryan Fisher
 meta_description: We're getting married. We're pretty excited! You can find a bit about our wedding here.
 
-analytics:
-  google:
-    id:    UA-123456 # Your Google Analytics ID
+google_analytics_id: UA-20742253-6
 
 pygments: true
 
