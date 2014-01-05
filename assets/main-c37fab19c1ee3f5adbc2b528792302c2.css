@@ -84,7 +84,8 @@ nav {
     display: inline-block;
     text-decoration: none;
     padding-bottom: 5px;
+    margin: 0 3px;
     border-bottom: 1px solid #b4cbc0; }
 
-#places-to-stay {
+.page {
   display: none; }
