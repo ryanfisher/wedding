@@ -5,16 +5,14 @@
       var callback, page;
       page = $(event.currentTarget).data('page');
       $('.info').addClass('up');
-      $('.page').slideUp(300);
+      $('.page').slideUp(100);
       callback = function() {
-        $('.date, .location, .venue').addClass('small');
-        $('.details').slideDown(100);
-        return $("#" + page).slideDown();
+        return $("#" + page + ", .details").addClass('small').slideDown(100);
       };
-      if ($('.date').hasClass('small')) {
+      if ($('.details').hasClass('small')) {
         return callback();
       } else {
-        return $('.details').slideUp(300, callback);
+        return $('.details').slideUp(200, callback);
       }
     });
   });

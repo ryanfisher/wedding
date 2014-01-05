@@ -12,14 +12,14 @@ ul {
   padding: 0; }
 
 .info {
-  width: 440px;
+  max-width: 440px;
   margin: 0 auto;
   position: relative;
   padding-top: 100px;
-  -webkit-transition: padding 0.5s ease-out;
-  -moz-transition: padding 0.5s ease-out;
-  -o-transition: padding 0.5s ease-out;
-  transition: padding 0.5s ease-out; }
+  -webkit-transition: padding 0.2s ease-out;
+  -moz-transition: padding 0.2s ease-out;
+  -o-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out; }
   .info.up {
     padding-top: 0; }
 
@@ -35,24 +35,18 @@ h1 {
   color: #b4cbc0;
   font-size: 4em;
   font-family: 'Poiret One', cursive; }
-  .date.small {
-    padding-right: 10px; }
 
 .venue, .location {
   font-size: 2.8em;
   text-transform: uppercase; }
 
-.date, .location, .venue {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out; }
-  .date.small, .location.small, .venue.small {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1em;
-    display: inline-block; }
-
-.location.small:before {
+.small .date, .small .location, .small .venue {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  display: inline-block; }
+.small .date {
+  padding-right: 10px; }
+.small .location:before {
   content: '|';
   padding: 10px; }
 
