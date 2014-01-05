@@ -8,4 +8,4 @@ analytics:
 
 pygments: true
 
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'Rakefile']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'Rakefile', '.gitignore']
