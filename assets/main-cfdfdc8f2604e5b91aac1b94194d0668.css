@@ -1,45 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
-
-//= require normalize
-
-$warm_gray: #877F7A;
-$other_color: #B4CBC0;
-
 body {
-  color: $warm_gray;
+  color: #877f7a;
   text-align: center;
   font-family: 'Poiret One', cursive;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .info {
   width: 440px;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 h1 {
   text-align: center;
   text-transform: uppercase;
-  color: $warm_gray;
+  color: #877f7a;
   font-size: 2.2em;
-  margin: 100px 0 0;
-}
+  margin: 100px 0 0; }
 
 .date {
-  color: $other_color;
-  font-size: 4em;
-}
+  color: #b4cbc0;
+  font-size: 4em; }
 
 .venue, .location {
   font-size: 1.5em;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .palm-tree {
   position: fixed;
   right: 0;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 90%;
-}
+  height: 90%; }
