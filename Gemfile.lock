@@ -68,7 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script (~> 2.2.0)
-  jekyll
+  jekyll (~> 1.4.2)
   jekyll-assets (~> 0.7.4)
   rake (~> 10.1.1)
   sass (~> 3.2.13)

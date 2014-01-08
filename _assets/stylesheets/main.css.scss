@@ -92,6 +92,10 @@ h1 {
   border-bottom: 1px solid $warm_gray;
 }
 
+a:link, a:visited {
+  color: $other_color;
+}
+
 nav {
   margin: 20px;
   position: relative;
@@ -107,7 +111,6 @@ nav {
   }
 
   a:link, a:visited {
-    color: $other_color;
     display: inline-block;
     text-decoration: none;
     padding-bottom: 5px;
@@ -124,4 +127,5 @@ nav {
 .page {
   display: none;
   position: relative;
+  font-family: Helvetica;
 }
