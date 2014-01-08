@@ -113,6 +113,11 @@ nav {
     padding-bottom: 5px;
     margin: 0 3px;
     border-bottom: 1px solid $other_color;
+    border-top: 1px solid transparent;
+  }
+
+  a:hover, a:active {
+    border-top: 1px solid $other_color;
   }
 }
 
