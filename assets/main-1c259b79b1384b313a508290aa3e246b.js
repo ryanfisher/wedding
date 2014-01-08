@@ -1,9 +1,11 @@
 (function() {
-
   $(document).on('ready', function() {
-    return $('nav a').click(function() {
+    var nav_buttons;
+    nav_buttons = $('nav a');
+    return nav_buttons.click(function() {
       var callback, page;
-      page = $(event.currentTarget).data('page');
+      nav_buttons.removeClass('current');
+      page = $(event.currentTarget).addClass('current').data('page');
       $('.info').addClass('up');
       $('.page').slideUp(100);
       callback = function() {
