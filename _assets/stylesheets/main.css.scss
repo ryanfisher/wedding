@@ -128,4 +128,21 @@ nav {
   display: none;
   position: relative;
   font-family: Helvetica;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 20px;
+
+  li {
+    padding: 5px;
+
+    &:nth-child(even) {
+      background-color: #EDE5E0;
+
+    }
+  }
+
+  .hotel-link {
+    float: right;
+  }
 }

@@ -1,7 +1,42 @@
 - name: La Valencia Hotel
   link: http://www.lavalencia.com
   display_link: www.lavalencia.com
+  dollar_signs: 3
+  note: Classic La Jolla and the venue for the wedding
 
 - name: Best Western Plus - Inn by the Sea
   link: http://bestwesterncalifornia.com/hotels/best-western-plus-inn-by-the-sea
   display_link: bestwesterncalifornia.com
+  dollar_signs: 2
+  note: Walking distance to La Valencia and a great bargain for the location
+
+- name: La Jolla Shores
+  link: http://www.ljshoreshotel.com/home
+  display_link: www.ljshoreshotel.com
+  dollar_signs: 3
+
+- name: La Jolla Inn
+  link: http://www.innlajolla.com/
+  display_link: www.innlajolla.com
+  dollar_signs: 2
+
+- name: La Jolla Cove Suites
+  link: http://www.lajollacove.com/
+  display_link: www.lajollacove.com
+
+- name: Hotel La Jolla
+  link: http://www.hotellajolla.com/
+  display_link: www.hotellajolla.com
+
+- name: Sands of La Jolla
+  link: http://www.sandsoflajolla.com/
+  display_link: www.sandsoflajolla.com
+
+- name: Pantai Inn
+  link: http://www.pantaiinn.com/
+  display_link: www.pantaiinn.com
+  dollar_signs: 3
+
+- name: Holiday Inn Express
+  link: http://holiday-inn-la-jolla.pacificahost.com/
+  display_link: holiday-inn-la-jolla.pacificahost.com

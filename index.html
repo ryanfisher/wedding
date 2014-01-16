@@ -24,7 +24,7 @@ layout: default
 <div id="places-to-stay" class="page">
   <ul>
     {% for hotel in site.data.hotels %}
-      <li>{{ hotel.name }} - <a href="{{ hotel.link }}">{{ hotel.display_link }}</a></li>
+      <li>{{ hotel.name }} <a class="hotel-link" href="{{ hotel.link }}">{{ hotel.display_link }}</a></li>
     {% endfor %}
   </ul>
 </div>
