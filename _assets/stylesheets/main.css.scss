@@ -135,14 +135,20 @@ nav {
 
   li {
     padding: 5px;
+  }
 
-    &:nth-child(even) {
-      background-color: #EDE5E0;
+  a:link, a:visited {
+    color: $warm_gray;
+    text-decoration: none;
+  }
 
-    }
+  a:nth-child(even) li {
+    background-color: #EDE5E0;
   }
 
   .hotel-link {
     float: right;
+    text-decoration: underline;
+    color: $other_color;
   }
 }
