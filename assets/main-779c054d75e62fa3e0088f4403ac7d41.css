@@ -93,4 +93,14 @@ nav {
 .page {
   display: none;
   position: relative;
-  font-family: Helvetica; }
+  font-family: Helvetica;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 20px; }
+  .page li {
+    padding: 5px; }
+    .page li:nth-child(even) {
+      background-color: #EDE5E0; }
+  .page .hotel-link {
+    float: right; }
