@@ -113,3 +113,6 @@ nav {
     color: #b4cbc0; }
   .page .clear {
     clear: both; }
+
+#song-recs {
+  text-align: center; }
