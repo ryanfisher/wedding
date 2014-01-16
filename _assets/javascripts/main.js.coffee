@@ -11,3 +11,10 @@ $(document).on 'ready', ->
       callback()
     else
       $('.details').slideUp 200, callback
+
+  $('form').submit ->
+    event.preventDefault()
+    song = $('input:text').val()
+    ga('send', 'event', 'Song Recommendation', song)
+    $('input:text').val('')
+    $('#song-recs p').text("Thanks for recommending #{song}. We'll think about it!")
