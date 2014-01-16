@@ -100,7 +100,12 @@ nav {
   line-height: 20px; }
   .page li {
     padding: 5px; }
-    .page li:nth-child(even) {
-      background-color: #EDE5E0; }
+  .page a:link, .page a:visited {
+    color: #877f7a;
+    text-decoration: none; }
+  .page a:nth-child(even) li {
+    background-color: #EDE5E0; }
   .page .hotel-link {
-    float: right; }
+    float: right;
+    text-decoration: underline;
+    color: #b4cbc0; }
