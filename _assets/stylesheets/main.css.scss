@@ -140,6 +140,8 @@ nav {
   a:link, a:visited {
     color: $warm_gray;
     text-decoration: none;
+    display: block;
+    clear: both;
   }
 
   a:nth-child(even) li {
@@ -150,5 +152,9 @@ nav {
     float: right;
     text-decoration: underline;
     color: $other_color;
+  }
+
+  .clear {
+    clear: both;
   }
 }
