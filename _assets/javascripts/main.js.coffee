@@ -4,7 +4,8 @@ $(document).on 'ready', ->
     nav_buttons.removeClass('current')
     page = $(event.currentTarget).addClass('current').data('page')
     $('.info').addClass('up')
-    $('.page').slideUp 100
+    $('.page').removeClass('current')
+    $("##{page}").addClass('current')
     callback = ->
       $("##{page}, .details").addClass('small').slideDown(100)
     if $('.details').hasClass('small')

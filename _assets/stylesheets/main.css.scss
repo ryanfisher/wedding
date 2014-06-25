@@ -25,15 +25,19 @@ ul {
   padding: 0;
 }
 
+@mixin transition($args) {
+  -webkit-transition: $args;
+  -moz-transition:  $args;
+  -o-transition:  $args;
+  transition:  $args;
+}
+
 .info {
   max-width: 440px;
   margin: 0 auto;
   position: relative;
   padding-top: 100px;
-  -webkit-transition: padding 0.2s ease-out;
-  -moz-transition:  padding 0.2s ease-out;
-  -o-transition:  padding 0.2s ease-out;
-  transition:  padding 0.2s ease-out;
+  @include transition(padding 0.2s ease-out);
 
   &.up {
     padding-top: 0;
@@ -124,14 +128,27 @@ nav {
   }
 }
 
-.page {
-  display: none;
+.page-container {
   position: relative;
-  font-family: Helvetica;
+  overflow-y: hidden;
   max-width: 500px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.page {
+  position: absolute;
+  font-family: Helvetica;
+  width: 500px;
   margin: 0 auto;
   text-align: left;
   line-height: 20px;
+  top: -100%;
+  @include transition(top 0.3s ease-in-out);
+
+  &.current {
+    top: 0;
+  }
 
   li {
     padding: 5px;
