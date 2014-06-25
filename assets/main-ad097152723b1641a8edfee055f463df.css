@@ -90,14 +90,27 @@ nav {
   nav a:hover, nav a:active, nav a.current {
     border-top: 1px solid #b4cbc0; }
 
-.page {
-  display: none;
+.page-container {
   position: relative;
-  font-family: Helvetica;
+  overflow-y: hidden;
   max-width: 500px;
+  min-height: 200px;
+  margin: 0 auto; }
+
+.page {
+  position: absolute;
+  font-family: Helvetica;
+  width: 500px;
   margin: 0 auto;
   text-align: left;
-  line-height: 20px; }
+  line-height: 20px;
+  top: -100%;
+  -webkit-transition: top 0.3s ease-in-out;
+  -moz-transition: top 0.3s ease-in-out;
+  -o-transition: top 0.3s ease-in-out;
+  transition: top 0.3s ease-in-out; }
+  .page.current {
+    top: 0; }
   .page li {
     padding: 5px; }
   .page a:link, .page a:visited {
