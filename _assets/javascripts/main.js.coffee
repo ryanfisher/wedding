@@ -6,12 +6,7 @@ $(document).on 'ready', ->
     $('.info').addClass('up')
     $('.page').removeClass('current')
     $("##{page}").addClass('current')
-    callback = ->
-      $("##{page}, .details").addClass('small').slideDown(100)
-    if $('.details').hasClass('small')
-      callback()
-    else
-      $('.details').slideUp 200, callback
+    $(".details").addClass('small')
 
   $('form').submit ->
     event.preventDefault()

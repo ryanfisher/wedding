@@ -37,7 +37,7 @@ ul {
   margin: 0 auto;
   position: relative;
   padding-top: 100px;
-  @include transition(padding 0.2s ease-out);
+  @include transition(padding 0.3s ease-out);
 
   &.up {
     padding-top: 0;
@@ -53,29 +53,35 @@ h1 {
   margin: 0;
 }
 
-.date {
-  color: $other_color;
-  font-size: 4em;
-  font-family: 'Poiret One', cursive;
-}
+.details {
+  // .date, .venue, .location {
+  //   @include transition(font-size 0.2s ease-in-out);
+  // }
 
-.venue, .location {
-  font-size: 2.8em;
-  text-transform: uppercase;
-}
-
-.small {
-  .date, .location, .venue {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1em;
-    display: inline-block;
+  .date {
+    color: $other_color;
+    font-size: 4em;
+    font-family: 'Poiret One', cursive;
   }
 
-  .date { padding-right: 10px; }
+  .venue, .location {
+    font-size: 2.8em;
+    text-transform: uppercase;
+  }
 
-  .location:before {
-    content: '|';
-    padding: 10px;
+  &.small {
+    .date, .location, .venue {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.1em;
+      display: inline-block;
+    }
+
+    .date { padding-right: 10px; }
+
+    .location:before {
+      content: '|';
+      padding: 10px;
+    }
   }
 }
 
