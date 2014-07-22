@@ -4,12 +4,15 @@ class PageRouter extends Backbone.Router
     'places-to-stay': 'places_to_stay'
     'registries': 'registries'
     'song-recs': 'song_recs'
+    'about': 'about'
 
   places_to_stay: -> @show_page('places-to-stay')
 
   registries: -> @show_page('wedding-registries')
 
   song_recs: -> @show_page('song-recs')
+
+  about: -> @show_page('about')
 
   show_page: (page) ->
     $('nav a').removeClass('current')

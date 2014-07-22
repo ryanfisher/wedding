@@ -182,6 +182,18 @@ nav {
   }
 }
 
+#about {
+  text-align: center;
+
+  a:link, a:visited {
+    color: $other_color;
+    display: inline;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+  }
+}
+
 #song-recs {
   text-align: center;
 }
