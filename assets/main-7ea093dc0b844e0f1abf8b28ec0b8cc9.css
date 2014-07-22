@@ -125,6 +125,14 @@ nav {
   .page .clear {
     clear: both; }
 
+#about {
+  text-align: center; }
+  #about a:link, #about a:visited {
+    color: #b4cbc0;
+    display: inline; }
+  #about a:hover, #about a:active {
+    text-decoration: underline; }
+
 #song-recs {
   text-align: center; }
 
